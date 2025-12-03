@@ -5,14 +5,15 @@ public class Person {
     private String address;
     private String phoneNumber;
 
-    //constructor
+    //
+    // Default Constructor
     public Person(){
         this.name = "";
         this.address = "";
         this.phoneNumber = "";
     }
 
-    //constructor
+    //Parameterized Constructor
     public Person(String name, String address, String phoneNumber) {
         this.name = name;
         this.address = address;

@@ -6,12 +6,13 @@ public class Customer extends Person{
     private boolean mailingList;
 
     public Customer() {
-        //super constructor, inherits person
+        //Super constructor, inherits person
         super();
         this.customerNumber = 0;
         this.mailingList = false;
     }
 
+    //Constructor
     public Customer(String name, String address, String phoneNumber, int customerNumber, boolean mailingList) {
         super(name, address, phoneNumber);
         this.customerNumber = customerNumber;
