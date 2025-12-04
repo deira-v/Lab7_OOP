@@ -40,5 +40,9 @@ public class Main {
         pc.addLoyaltyPoints(700);
         System.out.println(pc.toString());
 
+        //add more points and update discount
+        pc.addLoyaltyPoints(700);
+        System.out.println(pc.toString());
+
     }
 }
