@@ -5,7 +5,6 @@ public class Person {
     private String address;
     private String phoneNumber;
 
-    //
     // Default Constructor
     public Person(){
         this.name = "";
