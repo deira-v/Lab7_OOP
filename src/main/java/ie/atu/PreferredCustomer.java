@@ -72,8 +72,8 @@ public class PreferredCustomer extends Customer {
     @Override
     public String toString() {
         return "Customer = " + super.toString() +
-                "loyaltyPoints=" + loyaltyPoints +
-                ", discountLevel=" + discountLevel +
-                "'";
+                "loyaltyPoints =" + loyaltyPoints +
+                ", discountLevel =" + discountLevel +
+                "'.";
     }
 }
